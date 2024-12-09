@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Folder, Star, Bell, Clock, Search } from "lucide-react";
+import { Folder, Star, Bell, Clock, Search, Sun, Moon } from "lucide-react";
 import { useLocation, Link } from "react-router-dom";
 
 const Header = ({ darkMode, setDarkMode }) => {
@@ -102,7 +102,11 @@ const Header = ({ darkMode, setDarkMode }) => {
           onClick={() => setDarkMode(!darkMode)}
           className="p-2 bg-gray-200 dark:bg-gray-700 rounded"
         >
-          {darkMode ? "Light Mode" : "Dark Mode"}
+          {darkMode ? (
+            <Moon className="w-5 h-5 text-gray-900 dark:text-gray-200" />
+          ) : (
+            <Sun className="w-5 h-5 text-gray-900 dark:text-gray-200" />
+          )}
         </button>
       </div>
     </header>

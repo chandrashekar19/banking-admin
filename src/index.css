@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* index.css */
+/* Light Mode */
+.bg-light {
+  background-color: #f7fafc; /* Light background */
+}
+
+/* Dark Mode */
+.dark .bg-light {
+  background-color: #1a202c; /* Dark background */
+}
+
+/* You can also define text colors if needed */
+.text-light {
+  color: #2d3748; /* Light text */
+}
+
+.dark .text-light {
+  color: #e2e8f0; /* Dark text */
+}
+
+/* This will apply to any element you want to have hidden scrollbars */
+.hide-scrollbar {
+  overflow: auto; /* Allows scrolling */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* For Webkit browsers (Chrome, Safari, Edge) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Makes the thumb invisible */
+}
+
+.hide-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Makes the track invisible */
+}

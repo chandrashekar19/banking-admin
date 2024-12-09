@@ -32,7 +32,7 @@ const GeographicalChart = () => {
         height="150px"
       />
       <div className="mt-6">
-        <ul className="space-y-2">
+        <ul className="space-y-2 dark:text-white">
           <li className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="w-4 h-1 bg-blue-500"></div> {/* Line fill */}

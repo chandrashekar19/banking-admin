@@ -17,7 +17,7 @@ const Notifications = () => {
               <img
                 src={notify.icon} // Use notify.icon as the source
                 alt="Notification Icon"
-                className="w-6 h-6 object-contain"
+                className="w-6 h-6 object-contain dark:hidden"
               />
             </div>
 

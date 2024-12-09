@@ -34,7 +34,7 @@ const TopSellingProducts = () => {
       </h3>
       <table className="w-full text-left border-collapse">
         <thead>
-          <tr className="border-b dark:border-gray-700">
+          <tr className="border-b dark:border-gray-700 dark:text-white">
             <th className="p-2 font-semibold">Name</th>
             <th className="p-2 font-semibold">Price</th>
             <th className="p-2 font-semibold">Quantity</th>
@@ -43,7 +43,10 @@ const TopSellingProducts = () => {
         </thead>
         <tbody>
           {products.map((product, index) => (
-            <tr key={index} className="border-b dark:border-gray-700">
+            <tr
+              key={index}
+              className="border-b dark:border-gray-700 dark:text-white"
+            >
               <td className="p-2">{product.name}</td>
               <td className="p-2">{product.price}</td>
               <td className="p-2">{product.quantity}</td>

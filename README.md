@@ -25,12 +25,6 @@ A modern, feature-rich admin dashboard built using **React**, **Tailwind CSS**, 
 - **Charts**: Recharts
 - **Prop Validation**: PropTypes
 
----
-
-## 📁 Project Structure
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites

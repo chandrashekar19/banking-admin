@@ -19,7 +19,7 @@ const App = () => {
             <main className="flex-1 p-6 overflow-y-auto">
               <Routes>
                 <Route path="/" element={<Dashboard />} />
-                <Route path="/ecommerce/orders" element={<Orders />} />
+                <Route path="/orders" element={<Orders />} />
               </Routes>
             </main>
           </div>
